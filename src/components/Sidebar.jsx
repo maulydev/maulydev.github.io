@@ -11,12 +11,12 @@ const Sidebar = () => {
   const styles = {
     divStyle:
       "w-12 group-hover:w-20 group-hover:transition-all duration-1000 bg-slate-500 h-[2px]",
-    divActiveStyle: "w-20 bg-cyan-600",
+    divActiveStyle: "w-20 bg-cyan-400",
     aStyle: "flex items-center space-x-2 group",
   };
 
   return (
-    <div className="flex flex-col justify-between md:p-24 p-8 cursor-default">
+    <div className="flex flex-col justify-between p-8 lg:px-8 lg:py-24 xl:p-24 cursor-default">
       <section>
         <header className="space-y-4 mb-8">
           <h1 className="text-4xl font-bold">Mawuli Ernest</h1>
@@ -36,7 +36,7 @@ const Sidebar = () => {
               ></div>
               <span
                 className={`${
-                  activeLink === "about" && "text-cyan-500"
+                  activeLink === "about" && "text-cyan-400"
                 } relative`}
               >
                 ABOUT
@@ -52,7 +52,7 @@ const Sidebar = () => {
               ></div>
               <span
                 className={`${
-                  activeLink === "skills" && "text-cyan-500"
+                  activeLink === "skills" && "text-cyan-400"
                 } relative`}
               >
                 SKILLS
@@ -68,7 +68,7 @@ const Sidebar = () => {
               ></div>
               <span
                 className={`${
-                  activeLink === "projects" && "text-cyan-500"
+                  activeLink === "projects" && "text-cyan-400"
                 } relative`}
               >
                 PROJECTS
