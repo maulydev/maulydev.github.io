@@ -13,7 +13,8 @@ const Sidebar = () => {
       "w-12 group-hover:w-20 group-hover:transition-all duration-1000 bg-slate-500 h-[1px]",
     divActiveStyle: "w-20 bg-cyan-500",
     aStyle: "flex items-center space-x-2",
-	glowStyle: "absolute inset-0 transform bg-gradient-to-r from-blue-400 to-blue-600 filter blur-2xl opacity-60"
+    glowStyle:
+      "absolute inset-0 transform bg-gradient-to-r from-blue-400 to-blue-600 filter blur-2xl opacity-60",
   };
 
   return (
@@ -41,9 +42,6 @@ const Sidebar = () => {
                 } relative`}
               >
                 ABOUT
-                {activeLink === "about" && (
-                  <span className={styles.glowStyle}></span>
-                )}
               </span>
             </a>
           </li>
@@ -60,9 +58,6 @@ const Sidebar = () => {
                 } relative`}
               >
                 SKILLS
-                {activeLink === "skills" && (
-                  <span className={styles.glowStyle}></span>
-                )}
               </span>
             </a>
           </li>
@@ -79,9 +74,6 @@ const Sidebar = () => {
                 } relative`}
               >
                 PROJECTS
-                {activeLink === "projects" && (
-                  <span className={styles.glowStyle}></span>
-                )}
               </span>
             </a>
           </li>
@@ -99,7 +91,11 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a href="https://facebook.com/maulydotdev" target="_blank" rel="noreferrer">
+          <a
+            href="https://facebook.com/maulydotdev"
+            target="_blank"
+            rel="noreferrer"
+          >
             <BsFacebook />
           </a>
         </li>

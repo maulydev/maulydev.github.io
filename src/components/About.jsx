@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section id="about" className="space-y-4 min-h-screen">
+    <section id="about" className="space-y-4 min-h-screen text-lg">
       <p>
         I am Mawuli, an accomplished full-stack web developer, dedicated to
         crafting exceptional web applications. With expertise in both front-end
