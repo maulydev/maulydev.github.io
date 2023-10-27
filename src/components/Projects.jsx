@@ -5,6 +5,7 @@ import gospelcorner from "../assets/gospelcorner.png";
 import tipytools from "../assets/tipytools.png";
 import hojobs from "../assets/hojobs.png";
 import SectionTitle from "./SectionTitle";
+import placeholder from "../assets/default.jpg"
 
 const projects = [
   {
@@ -32,7 +33,7 @@ const projects = [
     name: "SimpliDB",
     url: "https://github.com/maulydev/SimpliDB",
     stacks: ["Python"],
-    image: tipytools,
+    image: placeholder,
     desc: "A python package to simplify sqlite3 database operations.",
   },
 ];
@@ -46,7 +47,7 @@ const ProjectCard = ({ project }) => {
       className="flex flex-col md:flex-row gap-4 items-center border border-slate-500 p-4 rounded-xl hover:border-cyan-500 hover:shadow-2xl group"
     >
       <div className="hidden md:block shrink-0 md:w-32 md:h-full rounded-lg overflow-hidden p-[2px] bg-cyan-950">
-        <img className="object-cover rounded" src={project.image} alt="" />
+        <img className="object-cover rounded" src={project.image ? project.image : placeholder} alt="" />
       </div>
       <div className="[&>*]:transition-all [&>*]:duration-1000">
         <h6 className="text-xl font-bold group-hover:text-cyan-400">
