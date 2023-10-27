@@ -99,7 +99,7 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a href="https://" target="_blank" rel="noreferrer">
+          <a href="https://facebook.com/maulydotdev" target="_blank" rel="noreferrer">
             <BsFacebook />
           </a>
         </li>
