@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
 const projects = [
   {
@@ -61,7 +62,8 @@ const ProjectCard = ({ project }) => {
 
 const Projects = () => {
   return (
-    <section className="min-h-screen space-y-8" id="projects">
+    <section className="space-y-8" id="projects">
+      <h3 className="font-bold text-xl">THINGS I'VE BUILT</h3>
       {projects.map((project) => (
         <ProjectCard key={project.name} project={project} />
       ))}

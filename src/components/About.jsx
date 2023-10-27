@@ -1,6 +1,7 @@
 const About = () => {
   return (
-    <section id="about" className="space-y-4 min-h-screen text-lg">
+    <section id="about" className="space-y-4 text-lg">
+      <h3 className="font-bold text-xl">I & MYSELF</h3>
       <p>
         I am Mawuli, an accomplished full-stack web developer, dedicated to
         crafting exceptional web applications. With expertise in both front-end
