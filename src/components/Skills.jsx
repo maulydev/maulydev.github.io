@@ -1,7 +1,9 @@
+import SectionTitle from "./SectionTitle";
+
 const Skills = () => {
   return (
     <section className="space-y-8" id="skills">
-      <h3 className="font-bold text-xl">MY MAGICAL TOOLS</h3>
+      <SectionTitle title="MY MAGICAL TOOLS" />
       <div>
         <h6 className="text-xl font-medium">Front-End</h6>
         <p>HTML, CSS, JavaScript, React</p>
