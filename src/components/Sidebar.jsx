@@ -9,12 +9,10 @@ const Sidebar = () => {
   }, [activeLink]);
 
   const styles = {
-    liStyle:
-      "w-12 group-hover:w-20 group-hover:transition-all duration-1000 bg-slate-500 h-[1px]",
-    divActiveStyle: "w-20 bg-cyan-500",
-    aStyle: "flex items-center space-x-2",
-    glowStyle:
-      "absolute inset-0 transform bg-gradient-to-r from-blue-400 to-blue-600 filter blur-2xl opacity-60",
+    divStyle:
+      "w-12 group-hover:w-20 group-hover:transition-all duration-1000 bg-slate-500 h-[2px]",
+    divActiveStyle: "w-20 bg-cyan-600",
+    aStyle: "flex items-center space-x-2 group",
   };
 
   return (
@@ -29,10 +27,10 @@ const Sidebar = () => {
         </header>
 
         <ul className="space-y-2 cursor-pointer">
-          <li onClick={() => setActiveLink("about")} className="group">
+          <li onClick={() => setActiveLink("about")}>
             <a href="#about" className={styles.aStyle}>
               <div
-                className={`${styles.liStyle} ${
+                className={`${styles.divStyle} ${
                   activeLink === "about" && styles.divActiveStyle
                 }`}
               ></div>
@@ -45,10 +43,10 @@ const Sidebar = () => {
               </span>
             </a>
           </li>
-          <li onClick={() => setActiveLink("skills")} className="group">
+          <li onClick={() => setActiveLink("skills")}>
             <a href="#skills" className={styles.aStyle}>
               <div
-                className={`${styles.liStyle} ${
+                className={`${styles.divStyle} ${
                   activeLink === "skills" && styles.divActiveStyle
                 }`}
               ></div>
@@ -61,10 +59,10 @@ const Sidebar = () => {
               </span>
             </a>
           </li>
-          <li onClick={() => setActiveLink("projects")} className="group">
+          <li onClick={() => setActiveLink("projects")}>
             <a href="#projects" className={styles.aStyle}>
               <div
-                className={`${styles.liStyle} ${
+                className={`${styles.divStyle} ${
                   activeLink === "projects" && styles.divActiveStyle
                 }`}
               ></div>

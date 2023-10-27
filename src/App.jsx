@@ -4,9 +4,9 @@ import Sidebar from "./components/Sidebar";
 
 const App = () => {
   return (
-    <div className="bg-slate-900 md:min-h-screen text-slate-300">
+    <div className="md:min-h-screen text-slate-300 relative">
       <Background />
-      <section className="container mx-auto grid md:grid-cols-2">
+      <section className="container mx-auto grid md:grid-cols-2 z-50">
         <Sidebar />
         <Main />
       </section>
