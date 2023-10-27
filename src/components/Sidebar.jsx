@@ -20,7 +20,7 @@ const Sidebar = () => {
     <div className="flex flex-col justify-between md:p-24 p-8 cursor-default">
       <section>
         <header className="space-y-4 mb-8">
-          <h1 className="text-4xl font-bold">Ernest Mawuli</h1>
+          <h1 className="text-4xl font-bold">Mawuli Ernest</h1>
           <h4 className="text-slate-200">FullStack Web Developer</h4>
           <p className="text-slate-400 text-lg">
             Crafting End-to-End Digital Solutions with Full-Stack Wizardry.
