@@ -1,7 +1,5 @@
 /* eslint-disable react/prop-types */
 import SectionTitle from "./SectionTitle";
-import { BsArrowUpRightCircle } from "react-icons/bs";
-
 
 const experiences = [
   {
@@ -59,17 +57,6 @@ const Experience = () => {
       {experiences.map((exp) => (
         <ExpCard key={exp.id} data={exp} />
       ))}
-
-      <div className="text-center font-medium">
-        <a
-          className="mt-4 flex items-center gap-4 text-slate-200 hover:text-cyan-500 hover:shadow-cyan-400"
-          href="https://drive.google.com/file/d/1S1lu55H5eswh-Gzj_am7ih2kzeUXAdku/view?usp=sharing"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span>View resume</span> <BsArrowUpRightCircle />
-        </a>
-      </div>
     </section>
   );
 };

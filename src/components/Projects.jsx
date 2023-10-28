@@ -1,11 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
 
-import gospelcorner from "../assets/gospelcorner.png";
-import tipytools from "../assets/tipytools.png";
-import hojobs from "../assets/hojobs.png";
+import gospelcorner from "../assets/gospelcorner.avif";
+import tipytools from "../assets/tipytools.avif";
+import hojobs from "../assets/hojobs.avif";
+import placeholder from "../assets/default.avif";
 import SectionTitle from "./SectionTitle";
-import placeholder from "../assets/default.jpg";
+
 
 const projects = [
   {
