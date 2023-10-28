@@ -9,8 +9,18 @@ const experiences = [
     company: "Atmos Technologies",
     location: "Ho, Ghana",
     workDescription:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis pariatur sapiente repellat excepturi atque perspiciatis ipsam, ea dolor ipsa quisquam natus alias fugit numquam aut, illo id delectus autem doloremque?",
+      "As a Frontend Developer at Atmos Technologies, I have been actively involved in shaping the user interface and overall user experience of our web applications. During my tenure with the company",
     stacks: ["React JS", "TailwindCSS", "JavaScript"],
+  },
+  {
+    id: "back-threb-2023",
+    role: "Back-End Developer",
+    workingPeriod: "2023",
+    company: "Trebnet Digitals",
+    location: "Ho, Ghana",
+    workDescription:
+      "I worked as an API Developer at Trebnet Digitals, where I played a key role in designing and implementing APIs using Python and Django Rest Framework. During my time with the company",
+    stacks: ["Python", "Django Rest Framework"],
   },
 ];
 
