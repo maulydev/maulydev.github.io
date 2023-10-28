@@ -17,7 +17,7 @@ const Sidebar = () => {
       <section>
         <header className="space-y-4 mb-8">
           <h1 className="text-4xl font-bold"> Mawuli Ernest</h1>
-          <h4 className="text-slate-200">FullStack Web Developer</h4>
+          <p className="text-slate-200">FullStack Web Developer</p>
           <p className="text-slate-400 text-lg">
             Crafting End-to-End Digital Solutions with Full-Stack Wizardry.
           </p>
@@ -103,6 +103,7 @@ const Sidebar = () => {
             href="https://github.com/maulydev"
             target="_blank"
             rel="noreferrer"
+            aria-label="Visit my GitHub"
           >
             <BsGithub />
           </a>
@@ -112,6 +113,7 @@ const Sidebar = () => {
             href="https://facebook.com/maulydotdev"
             target="_blank"
             rel="noreferrer"
+            aria-label="Visit my Facebook"
           >
             <BsFacebook />
           </a>
@@ -121,6 +123,7 @@ const Sidebar = () => {
             href="https://linkedin.com/in/maulydotdev"
             target="_blank"
             rel="noreferrer"
+            aria-label="Visit my LinkdedIn"
           >
             <BsLinkedin />
           </a>

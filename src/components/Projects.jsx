@@ -55,9 +55,9 @@ const ProjectCard = ({ project }) => {
         />
       </div>
       <div className="[&>*]:transition-all [&>*]:duration-1000">
-        <h6 className="text-xl font-bold group-hover:text-cyan-400">
+        <span className="text-xl font-bold group-hover:text-cyan-400">
           {project.name}
-        </h6>
+        </span>
         <p className="group-hover:text-cyan-300">{project.desc}</p>
         <div className="flex flex-wrap gap-2 mt-4 text-xs">
           {project.stacks.map((item) => (
