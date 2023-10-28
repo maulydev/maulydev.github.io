@@ -35,7 +35,7 @@ const ExpCard = ({ data }) => {
         {data.company} - {data.location}
       </h6>
       <p className="opacity-70 font-light">{data.workDescription}</p>
-      <div className="flex gap-2 text-xs text-cyan-300">
+      <div className="flex flex-wrap gap-2 text-xs text-cyan-300">
         {data.stacks.map((stack, idx) => (
           <span
             key={idx}
