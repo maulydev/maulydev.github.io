@@ -5,7 +5,7 @@ import gospelcorner from "../assets/gospelcorner.png";
 import tipytools from "../assets/tipytools.png";
 import hojobs from "../assets/hojobs.png";
 import SectionTitle from "./SectionTitle";
-import placeholder from "../assets/default.jpg"
+import placeholder from "../assets/default.jpg";
 
 const projects = [
   {
@@ -44,10 +44,14 @@ const ProjectCard = ({ project }) => {
       href={project.url}
       rel="noreferrer"
       target="_blank"
-      className="flex flex-col md:flex-row gap-4 items-center border border-slate-500 p-4 rounded-xl hover:border-cyan-500 hover:shadow-2xl group"
+      className="flex flex-col md:flex-row gap-4 items-center p-4 rounded-xl transition-all duration-500 shadow-inner hover:shadow-cyan-500 shadow-cyan-500/50 group backdrop-blur-sm bg-slate-950/10"
     >
       <div className="hidden md:block shrink-0 md:w-32 md:h-full rounded-lg overflow-hidden p-[2px] bg-cyan-950">
-        <img className="object-cover rounded" src={project.image ? project.image : placeholder} alt="" />
+        <img
+          className="object-cover rounded"
+          src={project.image ? project.image : placeholder}
+          alt=""
+        />
       </div>
       <div className="[&>*]:transition-all [&>*]:duration-1000">
         <h6 className="text-xl font-bold group-hover:text-cyan-400">
@@ -58,7 +62,7 @@ const ProjectCard = ({ project }) => {
           {project.stacks.map((item) => (
             <span
               key={item}
-              className="bg-cyan-500/30 text-cyan-200 tracking-wider rounded-full px-3 py-1"
+              className="bg-cyan-500/30 text-cyan-200 tracking-wider rounded px-3 py-1"
             >
               {item}
             </span>

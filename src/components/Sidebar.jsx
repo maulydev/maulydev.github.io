@@ -1,12 +1,8 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { BsGithub, BsFacebook, BsLinkedin } from "react-icons/bs";
 
 const Sidebar = () => {
   const [activeLink, setActiveLink] = useState("about");
-
-  useEffect(() => {
-    console.log(activeLink);
-  }, [activeLink]);
 
   const styles = {
     divStyle:
@@ -40,6 +36,22 @@ const Sidebar = () => {
                 } relative`}
               >
                 ABOUT
+              </span>
+            </a>
+          </li>
+          <li onClick={() => setActiveLink("experience")}>
+            <a href="#experience" className={styles.aStyle}>
+              <div
+                className={`${styles.divStyle} ${
+                  activeLink === "experience" && styles.divActiveStyle
+                }`}
+              ></div>
+              <span
+                className={`${
+                  activeLink === "experience" && "text-cyan-400"
+                } relative`}
+              >
+                EXPERIENCE
               </span>
             </a>
           </li>

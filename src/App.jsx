@@ -9,7 +9,7 @@ const App = () => {
       <section className="container mx-auto grid lg:grid-cols-2 z-50">
         <Sidebar />
         <Main />
-      </section>
+      </section> 
     </div>
   );
 };
