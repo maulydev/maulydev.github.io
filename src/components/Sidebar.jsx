@@ -119,6 +119,7 @@ const Sidebar = () => {
           </a>
         </li>
       </ul>
+      <span className="text-xs mt-4">inspired by brittany chiang</span>
     </div>
   );
 };

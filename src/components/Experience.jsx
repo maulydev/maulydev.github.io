@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import SectionTitle from "./SectionTitle";
-
+import { BsArrowUpRightCircle } from "react-icons/bs"
 const experiences = [
   {
     id: "front-atmos-2023",
@@ -15,7 +15,7 @@ const experiences = [
   {
     id: "back-threb-2023",
     role: "Back-End Developer",
-    workingPeriod: "2023",
+    workingPeriod: "Oct - 2023",
     company: "Trebnet Digitals",
     location: "Ho, Ghana",
     workDescription:
@@ -53,9 +53,16 @@ const Experience = () => {
   return (
     <section id="experience" className="space-y-10">
       <SectionTitle title="MY EXPERIENCE" />
+
       {experiences.map((exp) => (
         <ExpCard key={exp.id} data={exp} />
       ))}
+
+      <div className="text-center font-medium">
+        <a className="mt-4 flex items-center gap-4 text-slate-200 hover:text-cyan-500 hover:shadow-cyan-400" href="/resume.pdf" target="_blank">
+          <span>View resume</span> <BsArrowUpRightCircle />
+        </a>
+      </div>
     </section>
   );
 };
