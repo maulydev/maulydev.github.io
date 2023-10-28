@@ -10,7 +10,7 @@ const experiences = [
     location: "Ho, Ghana",
     workDescription:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis pariatur sapiente repellat excepturi atque perspiciatis ipsam, ea dolor ipsa quisquam natus alias fugit numquam aut, illo id delectus autem doloremque?",
-    stacks: ["React JS", "TailwindCSS"],
+    stacks: ["React JS", "TailwindCSS", "JavaScript"],
   },
 ];
 
