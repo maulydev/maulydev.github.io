@@ -6,7 +6,7 @@ const Skills = () => {
       <SectionTitle title="MY MAGICAL TOOLS" />
       <div>
         <h6 className="text-xl font-medium">Front-End</h6>
-        <p>HTML, CSS, JavaScript, React</p>
+        <p>HTML, CSS, JavaScript, React, Tailwindcss</p>
       </div>
       <div>
         <h6 className="text-xl font-medium">Back-End</h6>
@@ -22,7 +22,7 @@ const Skills = () => {
       </div>
       <div>
         <h6 className="text-xl font-medium">Other Tools</h6>
-        <p>VS Code, Trello, Slack</p>
+        <p>VS Code, Postman, Trello, Slack</p>
       </div>
     </section>
   );
