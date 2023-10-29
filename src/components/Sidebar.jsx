@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { BsGithub, BsFacebook, BsLinkedin } from "react-icons/bs";
-import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   const [activeLink, setActiveLink] = useState("about");
@@ -89,10 +88,10 @@ const Sidebar = () => {
             </a>
           </li>
           <li>
-            <Link className={styles.aStyle} to="/resume">
+            <a href="https://drive.google.com/file/d/1tlyOgSi6T6Twb72fhWNveRWyvGWmeeP5/view?usp=drive_link" rel="noreferrer"  className={styles.aStyle} to="/resume">
               <div className={styles.divStyle}></div>
               <span>RESUME</span>
-            </Link>
+            </a>
           </li>
         </ul>
       </section>
