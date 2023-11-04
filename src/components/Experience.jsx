@@ -5,7 +5,7 @@ const experiences = [
   {
     id: "front-atmos-2023",
     role: "React Front-End Developer",
-    workingPeriod: "2023 - present",
+    workingPeriod: "Nov - 2023 to present",
     company: "Atmos Technologies",
     location: "Ho, Ghana",
     workDescription:

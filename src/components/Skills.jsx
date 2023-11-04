@@ -22,7 +22,7 @@ const Skills = () => {
       </div>
       <div>
         <h6 className="text-xl font-medium">Other Tools</h6>
-        <p>VS Code, Postman, Trello, Slack</p>
+        <p>VS Code, Postman, Trello, Slack, Jira</p>
       </div>
     </section>
   );
