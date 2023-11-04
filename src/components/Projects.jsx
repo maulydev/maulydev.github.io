@@ -2,11 +2,11 @@
 /* eslint-disable react/prop-types */
 
 import gospelcorner from "../assets/gospelcorner.avif";
+import ghosttalk from "../assets/ghosttalk.avif";
 import tipytools from "../assets/tipytools.avif";
 import hojobs from "../assets/hojobs.avif";
 import placeholder from "../assets/default.avif";
 import SectionTitle from "./SectionTitle";
-
 
 const projects = [
   {
@@ -15,6 +15,13 @@ const projects = [
     stacks: ["React JS", "Django", "Tailwindcss"],
     image: tipytools,
     desc: "An open source community for developing packages and other development tools.",
+  },
+  {
+    name: "GhostTalk",
+    url: "https://ghosttalk.netlify.app/",
+    stacks: ["React JS", "Django", "Tailwindcss"],
+    image: ghosttalk,
+    desc: "This web app allows a user to share his/her profile link and receive honest feedback from friends and family without revealing their identity.",
   },
   {
     name: "Gospel Corner",

@@ -4,7 +4,7 @@ import SectionTitle from "./SectionTitle";
 const experiences = [
   {
     id: "front-atmos-2023",
-    role: "Front-End Developer",
+    role: "React Front-End Developer",
     workingPeriod: "2023 - present",
     company: "Atmos Technologies",
     location: "Ho, Ghana",
@@ -14,7 +14,7 @@ const experiences = [
   },
   {
     id: "back-threb-2023",
-    role: "Back-End Developer",
+    role: "Django Back-End Developer",
     workingPeriod: "Oct - 2023",
     company: "Trebnet Digitals",
     location: "Ho, Ghana",
