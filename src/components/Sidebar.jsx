@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { BsGithub, BsFacebook, BsLinkedin } from "react-icons/bs";
+import resume from "../assets/resume.pdf";
 
 const Sidebar = () => {
   const [activeLink, setActiveLink] = useState("about");
@@ -88,7 +89,13 @@ const Sidebar = () => {
             </a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/18xc9E7oLvOBOWk09klSuEYMb9b4vnsGJ/view?usp=drive_link" rel="noreferrer"  className={styles.aStyle} to="/resume">
+            <a
+              target="_blank"
+              href={resume}
+              rel="noreferrer"
+              className={styles.aStyle}
+              to="/resume"
+            >
               <div className={styles.divStyle}></div>
               <span>RESUME</span>
             </a>
