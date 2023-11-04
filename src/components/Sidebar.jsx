@@ -88,7 +88,7 @@ const Sidebar = () => {
             </a>
           </li>
           <li>
-            <a href="https://docs.google.com/document/d/1-n__fZIE9Z3cs0SNq3Lpr5nzky_H22106K_1tTujTZo/edit?usp=drive_link" rel="noreferrer"  className={styles.aStyle} to="/resume">
+            <a href="https://drive.google.com/file/d/18xc9E7oLvOBOWk09klSuEYMb9b4vnsGJ/view?usp=drive_link" rel="noreferrer"  className={styles.aStyle} to="/resume">
               <div className={styles.divStyle}></div>
               <span>RESUME</span>
             </a>
