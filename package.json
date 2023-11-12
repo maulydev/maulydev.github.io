@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist && git add . && git commit -m \"Updated and deployed\" && git push origin main"
   },
   "dependencies": {
+    "@vitejs/plugin-legacy": "^4.1.1",
     "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
