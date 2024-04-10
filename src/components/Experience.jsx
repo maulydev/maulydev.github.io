@@ -9,7 +9,7 @@ const experiences = [
     company: "Atmos Technologies",
     location: "Ho, Ghana",
     workDescription:
-      "As a Frontend Developer at Atmos Technologies, I have been actively involved in shaping the user interface and overall user experience of our web applications. During my tenure with the company",
+      "As a Frontend Developer at Atmos Technologies, I have been actively involved in shaping the user interface and overall user experience of our web applications. I have worked on variety of projects including business websites and Web apps. I have also been involved in the design and development of new features and functionalities for our existing products. My responsibilities include writing clean and maintainable code, ensuring cross-browser compatibility, and working closely with the design team to bring ideas to life.",
     stacks: ["React JS", "TailwindCSS", "JavaScript"],
   },
   {

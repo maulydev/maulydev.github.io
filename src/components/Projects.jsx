@@ -6,6 +6,7 @@ import ghosttalk from "../assets/ghosttalk.avif";
 import tipytools from "../assets/tipytools.avif";
 import hojobs from "../assets/hojobs.avif";
 import placeholder from "../assets/default.avif";
+import tipytools_logo from "../assets/tipytools_logo.jpg";
 import SectionTitle from "./SectionTitle";
 
 const projects = [
@@ -44,6 +45,13 @@ const projects = [
     image: placeholder,
     desc: "A python package to simplify sqlite3 database operations.",
   },
+  {
+    name: "Tipy UI Snippets",
+    url: "https://marketplace.visualstudio.com/items?itemName=Tipytools.tipy-ui-snippets",
+    stacks: ["VSCode"],
+    image: tipytools_logo,
+    desc: "Tipy UI Snippets is a Visual Studio Code extension providing a comprehensive collection of React JSX/TSX code snippets tailored to streamline your development process.",
+  },
 ];
 
 const ProjectCard = ({ project }) => {
@@ -57,7 +65,7 @@ const ProjectCard = ({ project }) => {
       <div className="hidden md:block shrink-0 md:w-32 md:h-full rounded-lg overflow-hidden p-[2px] bg-cyan-950">
         <img
           className="object-cover rounded"
-          src={project.image ? project.image : placeholder}
+          src={project.image || placeholder}
           alt=""
         />
       </div>
