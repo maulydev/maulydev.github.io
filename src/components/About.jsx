@@ -6,7 +6,7 @@
         <div className="space-y-4 text-lg group">
           <SectionTitle title="ABOUT ME" />
           <p className="">
-            I am Mawuli, an accomplished full-stack web developer, dedicated to
+            I am Mawuli, a full-stack web developer, dedicated to
             crafting exceptional web applications. With expertise in both
             front-end and back-end development, I thrive on challenges and
             continuous learning.
