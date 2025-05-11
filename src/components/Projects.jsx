@@ -7,15 +7,40 @@ import tipytools from "../assets/tipytools.avif";
 import hojobs from "../assets/hojobs.avif";
 import placeholder from "../assets/default.avif";
 import tipytools_logo from "../assets/tipytools_logo.jpg";
+import movr from "../assets/movr.png";
+import opsh from "../assets/opsh.png"
+import gitboard from "../assets/gitboard.png"
+
 import SectionTitle from "./SectionTitle";
 
 const projects = [
+  {
+    name: "Movr",
+    url: "https://movr.vercel.app",
+    stacks: ["Next JS", "Tailwindcss", "Framer Motion"],
+    image: movr,
+    desc: "A movie recommendation web app.",
+  },
+  {
+    name: "Open Shortener",
+    url: "https://opsh.vercel.app/",
+    stacks: ["Next JS", "Next JS API", "Tailwindcss"],
+    image: opsh,
+    desc: "Open is a free and open-source tool for shortening URLs. It provides a simple and efficient way to shorten long URLs, making them easier to share and manage.",
+  },
   {
     name: "Tipytools",
     url: "https://tipytools.vercel.app",
     stacks: ["React JS", "Django", "Tailwindcss"],
     image: tipytools,
     desc: "An open source community for developing packages and other development tools.",
+  },
+  {
+    name: "GitBoard",
+    url: "https://gitboard-one.vercel.app/",
+    stacks: ["Next JS", "GitHub API", "Tailwindcss"],
+    image: gitboard,
+    desc: "GitHub in colors",
   },
   {
     name: "GhostTalk",
