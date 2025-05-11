@@ -94,7 +94,8 @@ const Sidebar = () => {
               href={resume}
               rel="noreferrer"
               className={styles.aStyle}
-              to="/resume"
+              // to="/resume"
+              to="https://docs.google.com/document/d/1VXgqY8sos4lFKM64co3Jk6iIR3dz3deVwbFNzwq5k08/edit?usp=sharing"
             >
               <div className={styles.divStyle}></div>
               <span>RESUME</span>
